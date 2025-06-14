@@ -120,3 +120,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# SQLite
+*.db
+*.sqlite3
+# Note: ticket_booking.db is intentionally NOT ignored for this project's current state.
+# If it should be ignored in the future, add 'ticket_booking.db' here.
